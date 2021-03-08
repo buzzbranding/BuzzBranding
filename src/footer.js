@@ -12,11 +12,14 @@ export default function Footer(){
           <div className="column">
             <h3 className="footerText1">Important Links</h3>
             <div className="footerText">Terms & Conditions</div>
-            <div className="footerText"> Privaicy Policy</div>
+            <div className="footerText"> Privacy Policy</div>
           </div>
 
           <div className="column">
-            <h3 className="footerText1">Follow Us</h3>
+            <h3 className="footerText1" id ="contactUS">Contact US</h3>
+            <div className="footerText"> (+91) 8200459343 </div>
+            <div className="footerText"> (+1) (443)-355-9449 </div>
+            <div className="footerText"> Buzzbranding.in@gmail.com </div>
           </div>
 
         </div>

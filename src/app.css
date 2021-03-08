@@ -5,6 +5,14 @@
 }
 .image1{
   height: 500px;
+  width: 50%;
+}
+.heading{
+  color: #46413c;
+  margin: auto;
+  font-family: cursive;
+    font-size: 20px;
+    width: 50%;
 }
 .weAre{
     text-align: center;
@@ -16,6 +24,28 @@
  ,#f15c2c 0%,#212121 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #2d191900;
+}
+.para1{
+  padding: 15px;
+  margin-bottom: 0px;
+  color:black;
+  background-color: #fff9f0;
+padding-left: 30px;
+text-align: center;
+
+}
+.para21{
+  padding: 15px;
+  margin-top: -20px;
+padding-left: 30px;
+margin-bottom: 0px;
+font-family: cursive;
+text-align: center;
+}
+.para2{
+  padding: 15px;
+  margin-bottom: 0px;
+  font-family: cursive;
 }
 .name{
     position: relative;
@@ -77,11 +107,14 @@
 }
 .container1{
     display: flex;
-    background-color: #f4d8aa;
+    background-color: #fff9f0;
+    height: 300px;
 }
 .image{
-  width: 100%;
-  height: 500px;
+  height: 400px;
+  margin-top: -50px;
+  width: 600px;
+  margin-left: -50px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0,1), rgba(0, 0, 0, 0));
   z-index: 1;
 }
@@ -241,6 +274,14 @@ body {
   background-size: 400%;
   z-index: 1;
 
+}
+.para1h3{
+  
+  font-family: 'Montserrat';
+
+}
+.ul1{
+  font-family: cursive;
 }
 .container .card .content #angular {
   color: #ff753b;

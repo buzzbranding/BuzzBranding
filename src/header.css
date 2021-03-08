@@ -1,5 +1,5 @@
 .header{
-    background-color: #fff9f0;
+    background-color: #e8e0d4;
     margin: 0px;
     padding: 0px;
     height: 60px;
@@ -31,7 +31,33 @@
     width: 150px;
     margin: auto
   }
-
+  .headerTextContact{
+    font-family: 'Open Sans';
+    letter-spacing: .2px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(70, 62, 62);
+    display: block;
+    -webkit-transition: color .1s linear;
+    -moz-transition: color .1s linear;
+    -o-transition: color .1s linear;
+    transition: color .1s linear;
+    text-transform: uppercase;
+    padding: 8px 5px !important;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    width: 150px;
+    margin: auto;
+    margin-right: -33px;
+  }
+  .instagram{
+    color: #884064;
+    padding: 3px;
+    margin-top: 17px;
+    margin-right: 14px ;
+  }
 
   @media screen and (min-width:800px){
     
